@@ -18,9 +18,11 @@ If you want to customize the look, set any of the Shared properties in `MsgBoxTh
 - `MsgBoxTheme.FontSize`  
   - Set to `0` to use the default small font (MS Sans Serif, 8.25pt) 
   - Any other value uses Arial at that size
-- MsgBoxTheme.SaveVerify
+- `MsgBoxTheme.SaveVerify`
   - Set to True to display a preconfigured Save/Don't Save/Cancel dialog box
   - The SaveVerify flag resets itself after each call, automatically.
+ 
+  
 If you don’t set anything, the module uses sensible defaults.
 
 ## What This Is
@@ -40,3 +42,4 @@ Just drop it in and use it.
 Released under the “Do Anything You Want” License.  
 
 See the LICENSE file for full text.
+
